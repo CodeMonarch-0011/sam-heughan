@@ -1,0 +1,46 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+}
+
+
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  --text: rgb(238, 238, 238);
+  --bg: rgb(49, 49, 49);
+  --primary: rgb(231, 87, 15);
+  --primary-light: rgb(216, 69, 37, .4);
+  --text-2: rgb(255, 255, 255);
+  --secondary: rgb(255, 211, 105);
+  /* background: linear-gradient(var(--bg), rgb(36, 36, 36)); */
+  color: var(--text);
+  font-family: Poppins;
+  display: flex;
+  background-color: var(--bg);
+  flex-direction: column;
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  filter: brightness(.8);
+}
