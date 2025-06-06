@@ -31,9 +31,8 @@ export function Section11 ({ setContactOpen }) {
                 </button>
 
                 <div className="section-6-contacts">
-                    <span onClick={() => openSocial("https://www.instagram.com/samheughan")}> <AiFillInstagram /> </span>
-                    <span onClick={() => openSocial("https://x.com/SamHeughan")}> <FaXTwitter /> </span>
-                    <span onClick={() => openSocial("https://www.facebook.com/SamHeughan")}> <FaFacebookSquare /> </span>
+                    <span onClick={() => openSocial("https://www.instagram.com/samheughan?igsh=MXE4bTEzMWY5aHNwcA==")}> <AiFillInstagram /> </span>
+                    <span onClick={() => openSocial("https://www.facebook.com/share/19EPYTGgZw/?mibextid=qi2Omg")}> <FaFacebookSquare /> </span>
                 </div>
             </div>
 
